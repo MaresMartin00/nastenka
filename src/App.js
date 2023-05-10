@@ -1,10 +1,11 @@
+import Post from "./components/Post"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 
-  return (
-    <h1>Test</h1>
+  return(
+    <Post />
   )
-  
 }
 
 export default App
